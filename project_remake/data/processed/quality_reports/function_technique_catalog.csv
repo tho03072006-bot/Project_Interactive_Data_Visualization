@@ -1,0 +1,18 @@
+notebook,function_or_technique,use,reason
+00,tarfile + schema profiling + SHA-256,"inventory archive members, columns, keys and immutable-source hashes",provenance and reproducibility before cleaning
+01,pd.to_datetime / pd.to_numeric(errors='coerce'),standardize time and numeric types,invalid parses become explicit missing values
+01,Series.where,enforce positive/nonnegative domains and null impossible volume magnitude,preserve row/key while preventing invalid values from entering formulas
+01,merge(validate='one_to_one'),attach one common-date cap rank to dim_coin,detect duplicate keys and prevent row multiplication
+02,complete MonthEnd reindex,insert explicit missing months,"shift(12) means same calendar month, not twelfth prior row"
+02,resample('ME').agg / last,aggregate true daily VIX and select last trading observations for Brent/DXY,aggregation matches each variable's analytical meaning
+02,geometric weighted DXY reconstruction,combine six foreign-currency-per-USD rates,match index direction and fixed published weights while labeling it a proxy
+03,outer merge on ISO3-year,"combine inflation, GDP and population without discarding partial coverage",missing indicators stay visible and same-year alignment is enforced
+03,groupby(year).transform z-score,flag cross-sectional inflation extremes,retain substantive hyperinflation while making extremes auditable
+04,groupby(ticker) + pct_change/diff,calculate returns within asset only,prevent boundaries between tickers from contaminating returns
+04,rolling mean/std/cummax,"moving averages, annualized volatility and drawdown",time-ordered market descriptors
+04,shift(1) + exact rolling median/MAD,robust return-outlier score,past-only estimator avoids look-ahead and resists extreme-return masking
+04,merge cardinality validation,attach daily and monthly context,"make grain compatibility executable, not just documentary"
+05,assert / np.allclose,"independently reproduce keys, formulas, shares, DXY and calendar shifts",fail fast when a processed output is inconsistent
+06-08,Matplotlib / Seaborn static charts,"coverage, time series, distributions, drawdown, ranking, heatmap, scatter and regimes",chart form is matched to the analytical question and variable scale
+08,Pearson + Spearman + Benjamini-Hochberg,measure linear/monotonic association and control multiple-testing FDR,avoid treating many unadjusted p-values as independent discoveries
+08,statsmodels OLS with HAC(3),descriptive BTC-S&P slope with robust standard error,reduce sensitivity to heteroskedasticity and short autocorrelation; not causal

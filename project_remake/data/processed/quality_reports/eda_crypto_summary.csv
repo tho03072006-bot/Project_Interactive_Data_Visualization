@@ -1,0 +1,10 @@
+metric,value,unit
+coins_with_price_history,39.0,coin
+btc_daily_return_n,5788.0,day
+btc_return_skew,-0.7497102561425483,score
+btc_return_excess_kurtosis,21.471911755191055,score
+btc_max_drawdown,-92.74863345469116,%
+btc_outliers_robust_z_gt_6,91.0,day
+current_cap_assets_at_common_as_of,15.0,top-chart assets
+btc_jarque_bera_stat,111527.43053402832,statistic
+btc_jarque_bera_p,0.0,p-value

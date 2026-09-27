@@ -1,0 +1,64 @@
+ticker,raw_first_date,raw_last_date,raw_rows,price_first_date,price_last_date,valid_price_rows,valid_market_rows,valid_current_cap_rows,valid_estimated_cap_rows,has_price_history,category,category_source,market_cap_current_as_of_usd,market_cap_current_rank_as_of,market_cap_as_of_date
+1INCH,2020-12-23,2026-05-24,1979,2020-12-26,2026-05-23,1975,1976,1975,1975,True,DeFi,manual_project_taxonomy_descriptive_only,137607710.11993504,24,2026-05-23
+AAVE,2020-09-24,2026-05-24,2069,2020-10-10,2026-05-23,2052,2060,2052,2052,True,DeFi,manual_project_taxonomy_descriptive_only,1385527756.1786704,17,2026-05-23
+ADA,2017-09-23,2026-05-24,3166,2017-12-01,2026-05-23,3096,3096,3096,2528,True,Layer 1,manual_project_taxonomy_descriptive_only,8981193769.41899,10,2026-05-23
+ALGO,2019-06-11,2026-05-24,2540,2019-06-22,2026-05-23,2528,2528,2528,2528,True,Layer 1,manual_project_taxonomy_descriptive_only,1146310461.10811,18,2026-05-23
+ANKR,2019-03-16,2026-05-24,2627,,,0,2626,0,2528,False,Infrastructure,manual_project_taxonomy_descriptive_only,,,
+APT,2022-06-07,2026-05-24,1448,,,0,1447,0,1312,False,Layer 1,manual_project_taxonomy_descriptive_only,,,
+ATOM,2019-04-23,2026-05-24,2589,,,0,2588,0,2528,False,Layer 1,manual_project_taxonomy_descriptive_only,,,
+AVAX,2020-07-25,2026-05-24,2130,,,0,2129,0,2069,False,Layer 1,manual_project_taxonomy_descriptive_only,,,
+AXS,2020-11-04,2026-05-24,2028,,,0,2027,0,2026,False,Gaming,manual_project_taxonomy_descriptive_only,,,
+BAT,2017-05-29,2026-05-24,3283,2017-10-06,2026-05-23,3152,3156,3152,2528,True,Utility,manual_project_taxonomy_descriptive_only,151580951.8210485,23,2026-05-23
+BCH,2017-07-28,2026-05-24,3223,2017-08-01,2026-05-23,3218,3222,3218,2528,True,Payment,manual_project_taxonomy_descriptive_only,7117062802.981137,11,2026-05-23
+BNB,2017-07-05,2026-05-24,3246,2017-07-15,2026-05-23,3235,3235,647,2528,True,Layer 1,manual_project_taxonomy_descriptive_only,,,
+BTC,2009-01-03,2026-05-24,6351,2010-07-18,2026-05-23,5789,5789,5789,2528,True,Layer 1,manual_project_taxonomy_descriptive_only,1534955087416.121,1,2026-05-23
+CHZ,2019-09-07,2026-05-24,2452,,,0,2451,0,2451,False,Gaming,manual_project_taxonomy_descriptive_only,,,
+COMP,2020-03-04,2026-05-24,2273,2020-06-18,2026-05-23,2166,2169,2166,2164,True,DeFi,manual_project_taxonomy_descriptive_only,199732113.716623,21,2026-05-23
+CRV,2020-08-12,2026-05-24,2112,2020-08-15,2026-05-23,2108,2110,2108,2108,True,DeFi,manual_project_taxonomy_descriptive_only,557844613.5462767,20,2026-05-23
+DASH,2014-01-19,2026-05-24,4509,2014-02-08,2026-05-23,4488,4488,4488,2528,True,Privacy,manual_project_taxonomy_descriptive_only,584605745.3510479,19,2026-05-23
+DOGE,2013-12-08,2026-05-24,4551,2014-01-23,2026-05-23,4504,4505,4504,2528,True,Meme,manual_project_taxonomy_descriptive_only,15895894616.481264,6,2026-05-23
+DOT,2019-08-28,2026-05-24,2462,2020-08-20,2026-05-23,2103,2461,653,2100,True,Layer 1,manual_project_taxonomy_descriptive_only,,,
+EGLD,2020-09-03,2026-05-24,2090,,,0,2089,0,2088,False,Layer 1,manual_project_taxonomy_descriptive_only,,,
+ENJ,2017-11-02,2026-05-24,3126,,,0,3125,0,2528,False,Gaming,manual_project_taxonomy_descriptive_only,,,
+EOS,2017-06-29,2026-05-24,3252,2018-06-09,2026-05-23,2906,3251,0,2383,True,Layer 1,manual_project_taxonomy_descriptive_only,,,
+ETC,2016-07-20,2026-05-24,3596,2016-07-25,2026-05-23,3590,3590,3590,2528,True,Layer 1,manual_project_taxonomy_descriptive_only,1410866334.6448047,16,2026-05-23
+ETH,2015-07-30,2026-05-24,3952,2015-08-08,2026-05-23,3942,3942,3942,2528,True,Layer 1,manual_project_taxonomy_descriptive_only,257582954544.10623,2,2026-05-23
+FIL,2020-10-15,2026-05-24,2048,,,0,2047,0,2046,False,Storage,manual_project_taxonomy_descriptive_only,,,
+FTM,2019-05-02,2026-05-24,2580,,,0,2579,0,2528,False,Layer 1,manual_project_taxonomy_descriptive_only,,,
+GALA,2021-08-12,2026-05-24,1747,,,0,1746,0,1745,False,Gaming,manual_project_taxonomy_descriptive_only,,,
+GRT,2020-12-17,2026-05-24,1985,,,0,1984,0,1983,False,Infrastructure,manual_project_taxonomy_descriptive_only,,,
+HBAR,2019-09-18,2026-05-24,2441,,,0,2440,0,2440,False,Layer 1,manual_project_taxonomy_descriptive_only,,,
+ICP,2021-05-06,2026-05-24,1845,2021-05-11,2026-05-23,1839,1840,1839,1828,True,Layer 1,manual_project_taxonomy_descriptive_only,1436778140.5800767,15,2026-05-23
+KNC,2017-09-12,2026-05-24,3177,2017-09-27,2026-05-23,3161,3161,3161,1820,True,DeFi,manual_project_taxonomy_descriptive_only,1688689.9927610538,32,2026-05-23
+LINK,2017-09-16,2026-05-24,3173,2017-09-29,2026-05-23,3159,3159,3159,2528,True,Oracle,manual_project_taxonomy_descriptive_only,9556261815.96532,9,2026-05-23
+LRC,2017-09-02,2026-05-24,3187,,,0,3186,0,2528,False,Layer 2,manual_project_taxonomy_descriptive_only,,,
+LTC,2011-10-07,2026-05-24,5344,2013-04-01,2026-05-23,4801,4807,4801,2528,True,Payment,manual_project_taxonomy_descriptive_only,4125643434.024308,13,2026-05-23
+MANA,2017-07-18,2026-05-24,3233,2017-08-25,2026-05-23,3194,3232,3194,2528,True,Metaverse,manual_project_taxonomy_descriptive_only,192879449.59864476,22,2026-05-23
+MATIC,2019-04-27,2025-11-12,2392,,,0,2392,0,2260,False,Layer 2,manual_project_taxonomy_descriptive_only,,,
+MKR,2016-03-28,2026-05-23,3709,2017-12-26,2026-03-25,3012,3075,3012,2468,True,DeFi,manual_project_taxonomy_descriptive_only,,,
+NEAR,2020-10-14,2026-05-24,2049,,,0,2048,0,2008,False,Layer 1,manual_project_taxonomy_descriptive_only,,,
+NEO,2016-07-15,2026-05-24,3601,2017-07-15,2026-05-23,3235,3235,3030,2528,True,Layer 1,manual_project_taxonomy_descriptive_only,,,
+OMG,2017-07-05,2026-05-24,3246,2017-07-15,2026-05-23,3235,3235,3235,2528,True,Layer 2,manual_project_taxonomy_descriptive_only,8917815.222945714,30,2026-05-23
+QTUM,2017-07-28,2026-05-24,3223,,,0,3222,0,2528,False,Layer 1,manual_project_taxonomy_descriptive_only,,,
+REN,2017-12-31,2026-05-24,3067,2018-12-07,2026-05-23,2725,2725,2725,2528,True,DeFi,manual_project_taxonomy_descriptive_only,3281803.982450352,31,2026-05-23
+REP,2015-10-14,2026-05-24,3809,2016-10-04,2026-05-23,3519,3808,3519,2528,True,DeFi,manual_project_taxonomy_descriptive_only,10795973.309530802,29,2026-05-23
+SAND,2020-08-14,2026-05-24,2110,,,0,2109,0,2106,False,Metaverse,manual_project_taxonomy_descriptive_only,,,
+SHIB,2020-07-31,2026-05-24,2124,,,0,2123,0,1834,False,Meme,manual_project_taxonomy_descriptive_only,,,
+SNX,2018-03-11,2026-05-24,2997,2020-04-09,2026-05-23,2236,2508,2236,2236,True,DeFi,manual_project_taxonomy_descriptive_only,107246893.45869182,26,2026-05-23
+SOL,2020-04-11,2026-05-24,2235,,,0,2234,0,2234,False,Layer 1,manual_project_taxonomy_descriptive_only,,,
+STORJ,2017-10-07,2026-05-24,3152,,,0,3151,0,2528,False,Storage,manual_project_taxonomy_descriptive_only,,,
+SUSHI,2020-08-26,2026-05-24,2098,2020-09-01,2026-05-23,2091,2095,2091,2091,True,DeFi,manual_project_taxonomy_descriptive_only,60360664.72659891,28,2026-05-23
+THETA,2018-01-17,2026-05-24,3050,,,0,3049,0,2528,False,Layer 1,manual_project_taxonomy_descriptive_only,,,
+TRX,2017-10-07,2026-05-24,3152,2018-06-25,2026-05-23,2890,3151,0,2528,True,Layer 1,manual_project_taxonomy_descriptive_only,,,
+UNI,2020-09-14,2026-05-24,2079,2020-09-18,2026-05-23,2074,2075,2074,2074,True,DeFi,manual_project_taxonomy_descriptive_only,3457633328.67618,14,2026-05-23
+USDC,2018-08-03,2026-05-24,2852,2018-09-28,2026-05-23,2795,2795,2795,2528,True,Stablecoin,manual_project_taxonomy_descriptive_only,72541750173.07324,5,2026-05-23
+USDT,2013-12-28,2026-05-24,4531,2014-10-06,2026-05-23,4248,4530,4248,2528,True,Stablecoin,manual_project_taxonomy_descriptive_only,192764466941.01068,3,2026-05-23
+VET,2018-07-14,2026-05-24,2872,,,0,2871,0,2528,False,Layer 1,manual_project_taxonomy_descriptive_only,,,
+WAVES,2016-11-16,2026-05-24,3477,,,0,3476,0,2528,False,Layer 1,manual_project_taxonomy_descriptive_only,,,
+XLM,2014-08-12,2026-05-24,4304,2015-09-30,2026-05-23,3889,4303,3889,2528,True,Payment,manual_project_taxonomy_descriptive_only,15480351891.550192,7,2026-05-23
+XMR,2014-04-18,2026-05-24,4420,2014-05-20,2026-05-23,4387,4387,4387,2528,True,Privacy,manual_project_taxonomy_descriptive_only,7057938108.423521,12,2026-05-23
+XRP,2013-01-01,2026-05-24,4892,2014-08-15,2026-05-23,4300,4762,4300,2528,True,Payment,manual_project_taxonomy_descriptive_only,135763046775.90692,4,2026-05-23
+XTZ,2017-06-24,2026-05-24,3257,2018-06-30,2026-05-23,2885,3256,1399,2528,True,Layer 1,manual_project_taxonomy_descriptive_only,,,
+YFI,2020-07-17,2026-05-24,2138,2020-07-25,2026-05-23,2129,2136,2129,2129,True,DeFi,manual_project_taxonomy_descriptive_only,92084512.54949912,27,2026-05-23
+ZEC,2016-10-28,2026-05-24,3496,2016-10-29,2026-05-23,3494,3494,3494,2528,True,Privacy,manual_project_taxonomy_descriptive_only,10585963719.885202,8,2026-05-23
+ZRX,2017-08-11,2026-05-24,3209,2017-08-11,2026-05-23,3208,3208,3208,2528,True,DeFi,manual_project_taxonomy_descriptive_only,107291625.417148,25,2026-05-23
