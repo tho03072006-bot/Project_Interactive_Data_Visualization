@@ -1,0 +1,386 @@
+{
+  "data": {
+    "table": "analysis_crypto_macro_monthly.csv",
+    "months": 160,
+    "model_months": 159,
+    "train": [
+      "2013-01-31",
+      "2021-12-31",
+      108
+    ],
+    "test": [
+      "2022-01-31",
+      "2026-03-31",
+      51
+    ],
+    "train_up_rate": 0.7129629629629629,
+    "test_up_rate": 0.6666666666666666
+  },
+  "coefficients": [
+    {
+      "term": "const",
+      "he_so": 0.8218207754039232,
+      "sai_so_chuan": 0.2216333812682714,
+      "z": 3.7080189396612946,
+      "p_value": 0.00020888703628685576,
+      "ci_95_duoi": 0.387427330346277,
+      "ci_95_tren": 1.2562142204615694
+    },
+    {
+      "term": "x_log_btc",
+      "he_so": 2.7404786401727725,
+      "sai_so_chuan": 1.0140127134279986,
+      "z": 2.70260777195607,
+      "p_value": 0.006879787717656082,
+      "ci_95_duoi": 0.7530502419881604,
+      "ci_95_tren": 4.727907038357385
+    }
+  ],
+  "odds_ratio_btc_plus_10pct": {
+    "value": 1.2984815092632664,
+    "ci95": [
+      1.0744118052913065,
+      1.5692811839883578
+    ]
+  },
+  "p_when_btc_flat": 0.6946227034408853,
+  "mcfadden_pseudo_r2": 0.06876223230972589,
+  "llr_p_value": 0.002845743539487282,
+  "tier_thresholds": {
+    "p_0.60": {
+      "x_log_btc": -0.1519280833619305,
+      "btc_return_pct": -14.094994148818635
+    },
+    "p_0.75": {
+      "x_log_btc": 0.10100115695363945,
+      "btc_return_pct": 10.627792167495086
+    }
+  },
+  "tiers": [
+    {
+      "tap": "train",
+      "nhom": "1. Thấp",
+      "so_thang": 45,
+      "ty_le_sp500_tang": 0.8444444444444444,
+      "p_trung_binh": 0.8311147126661671
+    },
+    {
+      "tap": "train",
+      "nhom": "2. Trung bình",
+      "so_thang": 44,
+      "ty_le_sp500_tang": 0.6363636363636364,
+      "p_trung_binh": 0.6788636510362838
+    },
+    {
+      "tap": "train",
+      "nhom": "3. Cao",
+      "so_thang": 19,
+      "ty_le_sp500_tang": 0.5789473684210527,
+      "p_trung_binh": 0.5120966991803158
+    },
+    {
+      "tap": "test",
+      "nhom": "1. Thấp",
+      "so_thang": 14,
+      "ty_le_sp500_tang": 0.8571428571428571,
+      "p_trung_binh": 0.7882239518529209
+    },
+    {
+      "tap": "test",
+      "nhom": "2. Trung bình",
+      "so_thang": 27,
+      "ty_le_sp500_tang": 0.7037037037037037,
+      "p_trung_binh": 0.6905353095683047
+    },
+    {
+      "tap": "test",
+      "nhom": "3. Cao",
+      "so_thang": 10,
+      "ty_le_sp500_tang": 0.3,
+      "p_trung_binh": 0.5624920224364025
+    }
+  ],
+  "evaluation": {
+    "train": {
+      "n": 108,
+      "model": {
+        "tn": 3,
+        "fp": 28,
+        "fn": 5,
+        "tp": 72,
+        "accuracy": 0.6944444444444444,
+        "precision": 0.72,
+        "recall": 0.935064935064935,
+        "f1": 0.8135593220338982,
+        "auc": 0.6853791369920402,
+        "brier": 0.19141241679428955
+      },
+      "baseline_always_up": {
+        "tn": 0,
+        "fp": 31,
+        "fn": 0,
+        "tp": 77,
+        "accuracy": 0.7129629629629629,
+        "precision": 0.7129629629629629,
+        "recall": 1.0,
+        "f1": 0.8324324324324325,
+        "auc": 0.5,
+        "brier": 0.20464677640603565
+      }
+    },
+    "test": {
+      "n": 51,
+      "model": {
+        "tn": 0,
+        "fp": 17,
+        "fn": 1,
+        "tp": 33,
+        "accuracy": 0.6470588235294118,
+        "precision": 0.66,
+        "recall": 0.9705882352941176,
+        "f1": 0.7857142857142857,
+        "auc": 0.7318339100346021,
+        "brier": 0.2035197339971558
+      },
+      "baseline_always_up": {
+        "tn": 0,
+        "fp": 17,
+        "fn": 0,
+        "tp": 34,
+        "accuracy": 0.6666666666666666,
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1": 0.8,
+        "auc": 0.5,
+        "brier": 0.22436556927297668
+      }
+    }
+  },
+  "fisher_low_vs_high_test": {
+    "odds_ratio": 14.0,
+    "p_value": 0.01037243480708281
+  },
+  "yearly": [
+    {
+      "nam": 2013,
+      "so_thang": 12,
+      "thuc_te_ty_le_tang": 0.9166666666666666,
+      "mo_hinh_p_trung_binh": 0.7733442592531475
+    },
+    {
+      "nam": 2014,
+      "so_thang": 12,
+      "thuc_te_ty_le_tang": 0.6666666666666666,
+      "mo_hinh_p_trung_binh": 0.6447491620186958
+    },
+    {
+      "nam": 2015,
+      "so_thang": 12,
+      "thuc_te_ty_le_tang": 0.4166666666666667,
+      "mo_hinh_p_trung_binh": 0.7002106555576187
+    },
+    {
+      "nam": 2016,
+      "so_thang": 12,
+      "thuc_te_ty_le_tang": 0.6666666666666666,
+      "mo_hinh_p_trung_binh": 0.7268527261473413
+    },
+    {
+      "nam": 2017,
+      "so_thang": 12,
+      "thuc_te_ty_le_tang": 0.9166666666666666,
+      "mo_hinh_p_trung_binh": 0.7917647574912167
+    },
+    {
+      "nam": 2018,
+      "so_thang": 12,
+      "thuc_te_ty_le_tang": 0.5,
+      "mo_hinh_p_trung_binh": 0.6174590869143279
+    },
+    {
+      "nam": 2019,
+      "so_thang": 12,
+      "thuc_te_ty_le_tang": 0.75,
+      "mo_hinh_p_trung_binh": 0.714229873466961
+    },
+    {
+      "nam": 2020,
+      "so_thang": 12,
+      "thuc_te_ty_le_tang": 0.75,
+      "mo_hinh_p_trung_binh": 0.7446287807903014
+    },
+    {
+      "nam": 2021,
+      "so_thang": 12,
+      "thuc_te_ty_le_tang": 0.8333333333333334,
+      "mo_hinh_p_trung_binh": 0.7034273650270563
+    },
+    {
+      "nam": 2022,
+      "so_thang": 12,
+      "thuc_te_ty_le_tang": 0.4166666666666667,
+      "mo_hinh_p_trung_binh": 0.6365187571106384
+    },
+    {
+      "nam": 2023,
+      "so_thang": 12,
+      "thuc_te_ty_le_tang": 0.75,
+      "mo_hinh_p_trung_binh": 0.7323326000288753
+    },
+    {
+      "nam": 2024,
+      "so_thang": 12,
+      "thuc_te_ty_le_tang": 0.75,
+      "mo_hinh_p_trung_binh": 0.724055760523871
+    },
+    {
+      "nam": 2025,
+      "so_thang": 12,
+      "thuc_te_ty_le_tang": 0.8333333333333334,
+      "mo_hinh_p_trung_binh": 0.6884149819726749
+    },
+    {
+      "nam": 2026,
+      "so_thang": 3,
+      "thuc_te_ty_le_tang": 0.3333333333333333,
+      "mo_hinh_p_trung_binh": 0.642881237672142
+    }
+  ],
+  "one_step_forecast": {
+    "month": "2026-04-30",
+    "btc_return_pct": 11.851885552438834,
+    "p_sp500_next_up": 0.7556116640079983,
+    "risk_tier": "1. Thấp"
+  },
+  "timing_robustness": {
+    "correlations": [
+      {
+        "cua_so": "01/2013-04/2026",
+        "cach_do_btc": "BTC cuối tháng (đang dùng)",
+        "so_sanh": "cùng tháng",
+        "n": 160,
+        "pearson_r": 0.16784691887778963,
+        "p_value": 0.03387618481152851
+      },
+      {
+        "cua_so": "01/2013-04/2026",
+        "cach_do_btc": "BTC cuối tháng (đang dùng)",
+        "so_sanh": "S&P tháng sau",
+        "n": 159,
+        "pearson_r": 0.1752996000797072,
+        "p_value": 0.027095019747698786
+      },
+      {
+        "cua_so": "01/2013-04/2026",
+        "cach_do_btc": "BTC trung bình tháng",
+        "so_sanh": "cùng tháng",
+        "n": 160,
+        "pearson_r": 0.27193594485095096,
+        "p_value": 0.0005041035634584695
+      },
+      {
+        "cua_so": "01/2013-04/2026",
+        "cach_do_btc": "BTC trung bình tháng",
+        "so_sanh": "S&P tháng sau",
+        "n": 159,
+        "pearson_r": 0.11847274528767802,
+        "p_value": 0.13692485837440288
+      },
+      {
+        "cua_so": "01/2018-04/2026",
+        "cach_do_btc": "BTC cuối tháng (đang dùng)",
+        "so_sanh": "cùng tháng",
+        "n": 100,
+        "pearson_r": 0.20074748662610964,
+        "p_value": 0.045212487532375445
+      },
+      {
+        "cua_so": "01/2018-04/2026",
+        "cach_do_btc": "BTC cuối tháng (đang dùng)",
+        "so_sanh": "S&P tháng sau",
+        "n": 99,
+        "pearson_r": 0.3901733113016261,
+        "p_value": 6.543330329994547e-05
+      },
+      {
+        "cua_so": "01/2018-04/2026",
+        "cach_do_btc": "BTC trung bình tháng",
+        "so_sanh": "cùng tháng",
+        "n": 100,
+        "pearson_r": 0.43683124833711573,
+        "p_value": 5.524158640528799e-06
+      },
+      {
+        "cua_so": "01/2018-04/2026",
+        "cach_do_btc": "BTC trung bình tháng",
+        "so_sanh": "S&P tháng sau",
+        "n": 99,
+        "pearson_r": 0.13042235676558547,
+        "p_value": 0.19819579097801873
+      }
+    ],
+    "logit_btc_monthly_average": {
+      "tn": 0,
+      "fp": 17,
+      "fn": 0,
+      "tp": 34,
+      "accuracy": 0.6666666666666666,
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1": 0.8,
+      "auc": 0.6505190311418685,
+      "b1": 1.8619072726121215,
+      "b1_p_value": 0.07754543884180869,
+      "n_train": 108,
+      "n_test": 51
+    }
+  },
+  "tableau_consistency": [
+    {
+      "field": "f_p (hệ số Logistic)",
+      "values": 2,
+      "max_abs_diff": 3.5982722756955354e-07
+    },
+    {
+      "field": "nx_sp500",
+      "values": 159,
+      "max_abs_diff": 4.948170581609013e-09
+    },
+    {
+      "field": "nx_gold",
+      "values": 159,
+      "max_abs_diff": 4.981467717490862e-09
+    },
+    {
+      "field": "nx_vix",
+      "values": 159,
+      "max_abs_diff": 4.9882100117137895e-09
+    },
+    {
+      "field": "nx_dxy",
+      "values": 159,
+      "max_abs_diff": 4.988981712125695e-09
+    },
+    {
+      "field": "nx_brent",
+      "values": 159,
+      "max_abs_diff": 4.993446878968737e-09
+    },
+    {
+      "field": "nx_us10y",
+      "values": 159,
+      "max_abs_diff": 8.023096076392733e-18
+    },
+    {
+      "field": "nx_cpi",
+      "values": 157,
+      "max_abs_diff": 4.9989050490174824e-09
+    },
+    {
+      "field": "nx_real",
+      "values": 157,
+      "max_abs_diff": 4.99890504793328e-09
+    }
+  ],
+  "interpretation_limit": "Contemporaneous/lagged statistical association on monthly data; not causal; not a trading rule."
+}

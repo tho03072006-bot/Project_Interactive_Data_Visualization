@@ -1,0 +1,12 @@
+{
+  "window_start": "2018-01-31",
+  "window_end": "2026-04-30",
+  "n": 100,
+  "slope_sp500": 1.046654193477944,
+  "intercept": 2.4613688772105853,
+  "r_squared": 0.040299553386700326,
+  "p_hac_sp500": 0.016088416482571526,
+  "hac_maxlags": 3,
+  "sp500_measurement": "change in source monthly average price level; not total return",
+  "interpretation_limit": "Contemporaneous descriptive association; not causal or predictive."
+}

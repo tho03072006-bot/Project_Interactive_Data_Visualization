@@ -1,0 +1,7 @@
+check,status,detail
+raw_checksums,PASS,12 source files match manifest SHA-256
+primary_keys,PASS,8 tables have unique non-null keys
+domain_constraints,PASS,"positive prices/caps, nonnegative reported volume, 3 impossible volume magnitudes flagged/null, valid geography"
+calculated_fields,PASS,"returns, MA7, drawdown, exact past-only rolling MAD, turnover, cap identity tolerance, CPI shifts, current-cap shares and DXY reproduced"
+cleaning_policy,PASS,12 explicit policies
+data_dictionary,PASS,148 table-column definitions; no undocumented columns

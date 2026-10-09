@@ -1,0 +1,93 @@
+[
+  {
+    "table": "dim_coin",
+    "rows": 63,
+    "columns": 16,
+    "key": [
+      "ticker"
+    ],
+    "duplicate_keys": 0,
+    "null_key_rows": 0,
+    "missing_cells": 141
+  },
+  {
+    "table": "fact_crypto_daily",
+    "rows": 123358,
+    "columns": 29,
+    "key": [
+      "ticker",
+      "date"
+    ],
+    "duplicate_keys": 0,
+    "null_key_rows": 0,
+    "missing_cells": 436981
+  },
+  {
+    "table": "fact_market_daily",
+    "rows": 185694,
+    "columns": 11,
+    "key": [
+      "ticker",
+      "date"
+    ],
+    "duplicate_keys": 0,
+    "null_key_rows": 0,
+    "missing_cells": 186381
+  },
+  {
+    "table": "fact_macro_daily",
+    "rows": 10071,
+    "columns": 4,
+    "key": [
+      "date"
+    ],
+    "duplicate_keys": 0,
+    "null_key_rows": 0,
+    "missing_cells": 8426
+  },
+  {
+    "table": "fact_macro_monthly",
+    "rows": 2325,
+    "columns": 24,
+    "key": [
+      "month"
+    ],
+    "duplicate_keys": 0,
+    "null_key_rows": 0,
+    "missing_cells": 30526
+  },
+  {
+    "table": "analysis_crypto_macro_monthly",
+    "rows": 160,
+    "columns": 31,
+    "key": [
+      "month"
+    ],
+    "duplicate_keys": 0,
+    "null_key_rows": 0,
+    "missing_cells": 104
+  },
+  {
+    "table": "dim_country",
+    "rows": 249,
+    "columns": 10,
+    "key": [
+      "iso3"
+    ],
+    "duplicate_keys": 0,
+    "null_key_rows": 0,
+    "missing_cells": 12
+  },
+  {
+    "table": "fact_country_yearly",
+    "rows": 2580,
+    "columns": 23,
+    "key": [
+      "iso3",
+      "year"
+    ],
+    "duplicate_keys": 0,
+    "null_key_rows": 0,
+    "missing_cells": 3397
+  }
+]

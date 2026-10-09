@@ -1,0 +1,250 @@
+iso3,iso2,country_name,region,sub_region,continent_code,capital,currency_code,continent_name,is_ldc
+ABW,AW,Aruba,Americas,Latin America and the Caribbean,NA,Oranjestad,AWG,North America,0
+AFG,AF,Afghanistan,Asia,Southern Asia,AS,Kabul,AFN,Asia,1
+AGO,AO,Angola,Africa,Sub-Saharan Africa,AF,Luanda,AOA,Africa,1
+AIA,AI,Anguilla,Americas,Latin America and the Caribbean,NA,The Valley,XCD,North America,0
+ALA,AX,Åland Islands,Europe,Northern Europe,EU,Mariehamn,EUR,Europe,0
+ALB,AL,Albania,Europe,Southern Europe,EU,Tirana,ALL,Europe,0
+AND,AD,Andorra,Europe,Southern Europe,EU,Andorra la Vella,EUR,Europe,0
+ARE,AE,United Arab Emirates,Asia,Western Asia,AS,Abu Dhabi,AED,Asia,0
+ARG,AR,Argentina,Americas,Latin America and the Caribbean,SA,Buenos Aires,ARS,South America,0
+ARM,AM,Armenia,Asia,Western Asia,AS,Yerevan,AMD,Asia,0
+ASM,AS,American Samoa,Oceania,Polynesia,OC,Pago Pago,USD,Oceania,0
+ATA,AQ,Antarctica,,,AN,,,Antarctica,0
+ATF,TF,French Southern Territories,Africa,Sub-Saharan Africa,AN,Port-aux-Francais,EUR,Antarctica,0
+ATG,AG,Antigua and Barbuda,Americas,Latin America and the Caribbean,NA,St. John's,XCD,North America,0
+AUS,AU,Australia,Oceania,Australia and New Zealand,OC,Canberra,AUD,Oceania,0
+AUT,AT,Austria,Europe,Western Europe,EU,Vienna,EUR,Europe,0
+AZE,AZ,Azerbaijan,Asia,Western Asia,AS,Baku,AZN,Asia,0
+BDI,BI,Burundi,Africa,Sub-Saharan Africa,AF,Gitega,BIF,Africa,1
+BEL,BE,Belgium,Europe,Western Europe,EU,Brussels,EUR,Europe,0
+BEN,BJ,Benin,Africa,Sub-Saharan Africa,AF,Porto-Novo,XOF,Africa,1
+BES,BQ,"Bonaire, Sint Eustatius and Saba",Americas,Latin America and the Caribbean,NA,,USD,North America,0
+BFA,BF,Burkina Faso,Africa,Sub-Saharan Africa,AF,Ouagadougou,XOF,Africa,1
+BGD,BD,Bangladesh,Asia,Southern Asia,AS,Dhaka,BDT,Asia,1
+BGR,BG,Bulgaria,Europe,Eastern Europe,EU,Sofia,EUR,Europe,0
+BHR,BH,Bahrain,Asia,Western Asia,AS,Manama,BHD,Asia,0
+BHS,BS,Bahamas,Americas,Latin America and the Caribbean,NA,Nassau,BSD,North America,0
+BIH,BA,Bosnia and Herzegovina,Europe,Southern Europe,EU,Sarajevo,BAM,Europe,0
+BLM,BL,Saint Barthélemy,Americas,Latin America and the Caribbean,NA,Gustavia,EUR,North America,0
+BLR,BY,Belarus,Europe,Eastern Europe,EU,Minsk,BYN,Europe,0
+BLZ,BZ,Belize,Americas,Latin America and the Caribbean,NA,Belmopan,BZD,North America,0
+BMU,BM,Bermuda,Americas,Northern America,NA,Hamilton,BMD,North America,0
+BOL,BO,Bolivia (Plurinational State of),Americas,Latin America and the Caribbean,SA,Sucre,BOB,South America,0
+BRA,BR,Brazil,Americas,Latin America and the Caribbean,SA,Brasilia,BRL,South America,0
+BRB,BB,Barbados,Americas,Latin America and the Caribbean,NA,Bridgetown,BBD,North America,0
+BRN,BN,Brunei Darussalam,Asia,South-eastern Asia,AS,Bandar Seri Begawan,BND,Asia,0
+BTN,BT,Bhutan,Asia,Southern Asia,AS,Thimphu,"INR,BTN",Asia,0
+BVT,BV,Bouvet Island,Americas,Latin America and the Caribbean,AN,,NOK,Antarctica,0
+BWA,BW,Botswana,Africa,Sub-Saharan Africa,AF,Gaborone,BWP,Africa,0
+CAF,CF,Central African Republic,Africa,Sub-Saharan Africa,AF,Bangui,XAF,Africa,1
+CAN,CA,Canada,Americas,Northern America,NA,Ottawa,CAD,North America,0
+CCK,CC,Cocos (Keeling) Islands,Oceania,Australia and New Zealand,AS,West Island,AUD,Asia,0
+CHE,CH,Switzerland,Europe,Western Europe,EU,Bern,CHF,Europe,0
+CHL,CL,Chile,Americas,Latin America and the Caribbean,SA,Santiago,CLP,South America,0
+CHN,CN,China,Asia,Eastern Asia,AS,Beijing,CNY,Asia,0
+CIV,CI,Ivory Coast,Africa,Sub-Saharan Africa,AF,Yamoussoukro,XOF,Africa,0
+CMR,CM,Cameroon,Africa,Sub-Saharan Africa,AF,Yaounde,XAF,Africa,0
+COD,CD,Democratic Republic of the Congo,Africa,Sub-Saharan Africa,AF,Kinshasa,CDF,Africa,1
+COG,CG,Congo,Africa,Sub-Saharan Africa,AF,Brazzaville,XAF,Africa,0
+COK,CK,Cook Islands,Oceania,Polynesia,OC,Avarua,NZD,Oceania,0
+COL,CO,Colombia,Americas,Latin America and the Caribbean,SA,Bogota,COP,South America,0
+COM,KM,Comoros,Africa,Sub-Saharan Africa,AF,Moroni,KMF,Africa,1
+CPV,CV,Cabo Verde,Africa,Sub-Saharan Africa,AF,Praia,CVE,Africa,0
+CRI,CR,Costa Rica,Americas,Latin America and the Caribbean,NA,San Jose,CRC,North America,0
+CUB,CU,Cuba,Americas,Latin America and the Caribbean,NA,Havana,CUP,North America,0
+CUW,CW,Curaçao,Americas,Latin America and the Caribbean,NA, Willemstad,XCG,North America,0
+CXR,CX,Christmas Island,Oceania,Australia and New Zealand,OC,Flying Fish Cove,AUD,Oceania,0
+CYM,KY,Cayman Islands,Americas,Latin America and the Caribbean,NA,George Town,KYD,North America,0
+CYP,CY,Cyprus,Asia,Western Asia,EU,Nicosia,EUR,Europe,0
+CZE,CZ,Czechia,Europe,Eastern Europe,EU,Prague,CZK,Europe,0
+DEU,DE,Germany,Europe,Western Europe,EU,Berlin,EUR,Europe,0
+DJI,DJ,Djibouti,Africa,Sub-Saharan Africa,AF,Djibouti,DJF,Africa,1
+DMA,DM,Dominica,Americas,Latin America and the Caribbean,NA,Roseau,XCD,North America,0
+DNK,DK,Denmark,Europe,Northern Europe,EU,Copenhagen,DKK,Europe,0
+DOM,DO,Dominican Republic,Americas,Latin America and the Caribbean,NA,Santo Domingo,DOP,North America,0
+DZA,DZ,Algeria,Africa,Northern Africa,AF,Algiers,DZD,Africa,0
+ECU,EC,Ecuador,Americas,Latin America and the Caribbean,SA,Quito,USD,South America,0
+EGY,EG,Egypt,Africa,Northern Africa,AF,Cairo,EGP,Africa,0
+ERI,ER,Eritrea,Africa,Sub-Saharan Africa,AF,Asmara,ERN,Africa,1
+ESH,EH,Western Sahara,Africa,Northern Africa,AF,El-Aaiun,MAD,Africa,0
+ESP,ES,Spain,Europe,Southern Europe,EU,Madrid,EUR,Europe,0
+EST,EE,Estonia,Europe,Northern Europe,EU,Tallinn,EUR,Europe,0
+ETH,ET,Ethiopia,Africa,Sub-Saharan Africa,AF,Addis Ababa,ETB,Africa,1
+FIN,FI,Finland,Europe,Northern Europe,EU,Helsinki,EUR,Europe,0
+FJI,FJ,Fiji,Oceania,Melanesia,OC,Suva,FJD,Oceania,0
+FLK,FK,Falkland Islands,Americas,Latin America and the Caribbean,SA,Stanley,FKP,South America,0
+FRA,FR,France,Europe,Western Europe,EU,Paris,EUR,Europe,0
+FRO,FO,Faroe Islands,Europe,Northern Europe,EU,Torshavn,DKK,Europe,0
+FSM,FM,Micronesia (Federated States of),Oceania,Micronesia,OC,Palikir,USD,Oceania,0
+GAB,GA,Gabon,Africa,Sub-Saharan Africa,AF,Libreville,XAF,Africa,0
+GBR,GB,United Kingdom of Great Britain and Northern Ireland,Europe,Northern Europe,EU,London,GBP,Europe,0
+GEO,GE,Georgia,Asia,Western Asia,AS,Tbilisi,GEL,Asia,0
+GGY,GG,Guernsey,Europe,Northern Europe,EU,St Peter Port,GBP,Europe,0
+GHA,GH,Ghana,Africa,Sub-Saharan Africa,AF,Accra,GHS,Africa,0
+GIB,GI,Gibraltar,Europe,Southern Europe,EU,Gibraltar,GIP,Europe,0
+GIN,GN,Guinea,Africa,Sub-Saharan Africa,AF,Conakry,GNF,Africa,1
+GLP,GP,Guadeloupe,Americas,Latin America and the Caribbean,NA,Basse-Terre,EUR,North America,0
+GMB,GM,Gambia,Africa,Sub-Saharan Africa,AF,Banjul,GMD,Africa,1
+GNB,GW,Guinea-Bissau,Africa,Sub-Saharan Africa,AF,Bissau,XOF,Africa,1
+GNQ,GQ,Equatorial Guinea,Africa,Sub-Saharan Africa,AF,Ciudad de la Paz,XAF,Africa,0
+GRC,GR,Greece,Europe,Southern Europe,EU,Athens,EUR,Europe,0
+GRD,GD,Grenada,Americas,Latin America and the Caribbean,NA,St. George's,XCD,North America,0
+GRL,GL,Greenland,Americas,Northern America,NA,Nuuk,DKK,North America,0
+GTM,GT,Guatemala,Americas,Latin America and the Caribbean,NA,Guatemala City,GTQ,North America,0
+GUF,GF,French Guiana,Americas,Latin America and the Caribbean,SA,Cayenne,EUR,South America,0
+GUM,GU,Guam,Oceania,Micronesia,OC,Hagatna,USD,Oceania,0
+GUY,GY,Guyana,Americas,Latin America and the Caribbean,SA,Georgetown,GYD,South America,0
+HKG,HK,"China, Hong Kong Special Administrative Region",Asia,Eastern Asia,AS,Hong Kong,HKD,Asia,0
+HMD,HM,Heard Island and McDonald Islands,Oceania,Australia and New Zealand,AN,,AUD,Antarctica,0
+HND,HN,Honduras,Americas,Latin America and the Caribbean,NA,Tegucigalpa,HNL,North America,0
+HRV,HR,Croatia,Europe,Southern Europe,EU,Zagreb,EUR,Europe,0
+HTI,HT,Haiti,Americas,Latin America and the Caribbean,NA,Port-au-Prince,"HTG,USD",North America,1
+HUN,HU,Hungary,Europe,Eastern Europe,EU,Budapest,HUF,Europe,0
+IDN,ID,Indonesia,Asia,South-eastern Asia,AS,Jakarta,IDR,Asia,0
+IMN,IM,Isle of Man,Europe,Northern Europe,EU,Douglas,GBP,Europe,0
+IND,IN,India,Asia,Southern Asia,AS,New Delhi,INR,Asia,0
+IOT,IO,British Indian Ocean Territory,Africa,Sub-Saharan Africa,AS,Diego Garcia,USD,Asia,0
+IRL,IE,Ireland,Europe,Northern Europe,EU,Dublin,EUR,Europe,0
+IRN,IR,Iran (Islamic Republic of),Asia,Southern Asia,AS,Tehran,IRR,Asia,0
+IRQ,IQ,Iraq,Asia,Western Asia,AS,Baghdad,IQD,Asia,0
+ISL,IS,Iceland,Europe,Northern Europe,EU,Reykjavik,ISK,Europe,0
+ISR,IL,Israel,Asia,Western Asia,AS,Jerusalem,ILS,Asia,0
+ITA,IT,Italy,Europe,Southern Europe,EU,Rome,EUR,Europe,0
+JAM,JM,Jamaica,Americas,Latin America and the Caribbean,NA,Kingston,JMD,North America,0
+JEY,JE,Jersey,Europe,Northern Europe,EU,Saint Helier,GBP,Europe,0
+JOR,JO,Jordan,Asia,Western Asia,AS,Amman,JOD,Asia,0
+JPN,JP,Japan,Asia,Eastern Asia,AS,Tokyo,JPY,Asia,0
+KAZ,KZ,Kazakhstan,Asia,Central Asia,AS,Nur-Sultan,KZT,Asia,0
+KEN,KE,Kenya,Africa,Sub-Saharan Africa,AF,Nairobi,KES,Africa,0
+KGZ,KG,Kyrgyzstan,Asia,Central Asia,AS,Bishkek,KGS,Asia,0
+KHM,KH,Cambodia,Asia,South-eastern Asia,AS,Phnom Penh,KHR,Asia,1
+KIR,KI,Kiribati,Oceania,Micronesia,OC,Tarawa,AUD,Oceania,1
+KNA,KN,Saint Kitts and Nevis,Americas,Latin America and the Caribbean,NA,Basseterre,XCD,North America,0
+KOR,KR,Republic of Korea,Asia,Eastern Asia,AS,Seoul,KRW,Asia,0
+KWT,KW,Kuwait,Asia,Western Asia,AS,Kuwait City,KWD,Asia,0
+LAO,LA,Lao People's Democratic Republic,Asia,South-eastern Asia,AS,Vientiane,LAK,Asia,1
+LBN,LB,Lebanon,Asia,Western Asia,AS,Beirut,LBP,Asia,0
+LBR,LR,Liberia,Africa,Sub-Saharan Africa,AF,Monrovia,LRD,Africa,1
+LBY,LY,Libya,Africa,Northern Africa,AF,Tripoli,LYD,Africa,0
+LCA,LC,Saint Lucia,Americas,Latin America and the Caribbean,NA,Castries,XCD,North America,0
+LIE,LI,Liechtenstein,Europe,Western Europe,EU,Vaduz,CHF,Europe,0
+LKA,LK,Sri Lanka,Asia,Southern Asia,AS,Colombo,LKR,Asia,0
+LSO,LS,Lesotho,Africa,Sub-Saharan Africa,AF,Maseru,"LSL,ZAR",Africa,1
+LTU,LT,Lithuania,Europe,Northern Europe,EU,Vilnius,EUR,Europe,0
+LUX,LU,Luxembourg,Europe,Western Europe,EU,Luxembourg,EUR,Europe,0
+LVA,LV,Latvia,Europe,Northern Europe,EU,Riga,EUR,Europe,0
+MAC,MO,"China, Macao Special Administrative Region",Asia,Eastern Asia,AS,Macao,MOP,Asia,0
+MAF,MF,Saint Martin (French Part),Americas,Latin America and the Caribbean,NA,Marigot,EUR,North America,0
+MAR,MA,Morocco,Africa,Northern Africa,AF,Rabat,MAD,Africa,0
+MCO,MC,Monaco,Europe,Western Europe,EU,Monaco,EUR,Europe,0
+MDA,MD,Republic of Moldova,Europe,Eastern Europe,EU,Chisinau,MDL,Europe,0
+MDG,MG,Madagascar,Africa,Sub-Saharan Africa,AF,Antananarivo,MGA,Africa,1
+MDV,MV,Maldives,Asia,Southern Asia,AS,Male,MVR,Asia,0
+MEX,MX,Mexico,Americas,Latin America and the Caribbean,NA,Mexico City,MXN,North America,0
+MHL,MH,Marshall Islands,Oceania,Micronesia,OC,Majuro,USD,Oceania,0
+MKD,MK,North Macedonia,Europe,Southern Europe,EU,Skopje,MKD,Europe,0
+MLI,ML,Mali,Africa,Sub-Saharan Africa,AF,Bamako,XOF,Africa,1
+MLT,MT,Malta,Europe,Southern Europe,EU,Valletta,EUR,Europe,0
+MMR,MM,Myanmar,Asia,South-eastern Asia,AS,Nay Pyi Taw,MMK,Asia,1
+MNE,ME,Montenegro,Europe,Southern Europe,EU,Podgorica,EUR,Europe,0
+MNG,MN,Mongolia,Asia,Eastern Asia,AS,Ulaanbaatar,MNT,Asia,0
+MNP,MP,Northern Mariana Islands,Oceania,Micronesia,OC,Saipan,USD,Oceania,0
+MOZ,MZ,Mozambique,Africa,Sub-Saharan Africa,AF,Maputo,MZN,Africa,1
+MRT,MR,Mauritania,Africa,Sub-Saharan Africa,AF,Nouakchott,MRU,Africa,1
+MSR,MS,Montserrat,Americas,Latin America and the Caribbean,NA,Plymouth,XCD,North America,0
+MTQ,MQ,Martinique,Americas,Latin America and the Caribbean,NA,Fort-de-France,EUR,North America,0
+MUS,MU,Mauritius,Africa,Sub-Saharan Africa,AF,Port Louis,MUR,Africa,0
+MWI,MW,Malawi,Africa,Sub-Saharan Africa,AF,Lilongwe,MWK,Africa,1
+MYS,MY,Malaysia,Asia,South-eastern Asia,AS,Kuala Lumpur,MYR,Asia,0
+MYT,YT,Mayotte,Africa,Sub-Saharan Africa,AF,Mamoudzou,EUR,Africa,0
+NAM,NA,Namibia,Africa,Sub-Saharan Africa,AF,Windhoek,"NAD,ZAR",Africa,0
+NCL,NC,New Caledonia,Oceania,Melanesia,OC,Noumea,XPF,Oceania,0
+NER,NE,Niger,Africa,Sub-Saharan Africa,AF,Niamey,XOF,Africa,1
+NFK,NF,Norfolk Island,Oceania,Australia and New Zealand,OC,Kingston,AUD,Oceania,0
+NGA,NG,Nigeria,Africa,Sub-Saharan Africa,AF,Abuja,NGN,Africa,0
+NIC,NI,Nicaragua,Americas,Latin America and the Caribbean,NA,Managua,NIO,North America,0
+NIU,NU,Niue,Oceania,Polynesia,OC,Alofi,NZD,Oceania,0
+NLD,NL,Netherlands,Europe,Western Europe,EU,Amsterdam,EUR,Europe,0
+NOR,NO,Norway,Europe,Northern Europe,EU,Oslo,NOK,Europe,0
+NPL,NP,Nepal,Asia,Southern Asia,AS,Kathmandu,NPR,Asia,1
+NRU,NR,Nauru,Oceania,Micronesia,OC,Yaren,AUD,Oceania,0
+NZL,NZ,New Zealand,Oceania,Australia and New Zealand,OC,Wellington,NZD,Oceania,0
+OMN,OM,Oman,Asia,Western Asia,AS,Muscat,OMR,Asia,0
+PAK,PK,Pakistan,Asia,Southern Asia,AS,Islamabad,PKR,Asia,0
+PAN,PA,Panama,Americas,Latin America and the Caribbean,NA,Panama City,"PAB,USD",North America,0
+PCN,PN,Pitcairn,Oceania,Polynesia,OC,Adamstown,NZD,Oceania,0
+PER,PE,Peru,Americas,Latin America and the Caribbean,SA,Lima,PEN,South America,0
+PHL,PH,Philippines,Asia,South-eastern Asia,AS,Manila,PHP,Asia,0
+PLW,PW,Palau,Oceania,Micronesia,OC,Melekeok,USD,Oceania,0
+PNG,PG,Papua New Guinea,Oceania,Melanesia,OC,Port Moresby,PGK,Oceania,0
+POL,PL,Poland,Europe,Eastern Europe,EU,Warsaw,PLN,Europe,0
+PRI,PR,Puerto Rico,Americas,Latin America and the Caribbean,NA,San Juan,USD,North America,0
+PRK,KP,Democratic People's Republic of Korea,Asia,Eastern Asia,AS,Pyongyang,KPW,Asia,0
+PRT,PT,Portugal,Europe,Southern Europe,EU,Lisbon,EUR,Europe,0
+PRY,PY,Paraguay,Americas,Latin America and the Caribbean,SA,Asuncion,PYG,South America,0
+PSE,PS,State of Palestine,Asia,Western Asia,AS,East Jerusalem,,Asia,0
+PYF,PF,French Polynesia,Oceania,Polynesia,OC,Papeete,XPF,Oceania,0
+QAT,QA,Qatar,Asia,Western Asia,AS,Doha,QAR,Asia,0
+REU,RE,Réunion,Africa,Sub-Saharan Africa,AF,Saint-Denis,EUR,Africa,0
+ROU,RO,Romania,Europe,Eastern Europe,EU,Bucharest,RON,Europe,0
+RUS,RU,Russian Federation,Europe,Eastern Europe,EU,Moscow,RUB,Europe,0
+RWA,RW,Rwanda,Africa,Sub-Saharan Africa,AF,Kigali,RWF,Africa,1
+SAU,SA,Saudi Arabia,Asia,Western Asia,AS,Riyadh,SAR,Asia,0
+SDN,SD,Sudan,Africa,Northern Africa,AF,Khartoum,SDG,Africa,1
+SEN,SN,Senegal,Africa,Sub-Saharan Africa,AF,Dakar,XOF,Africa,1
+SGP,SG,Singapore,Asia,South-eastern Asia,AS,Singapore,SGD,Asia,0
+SGS,GS,South Georgia and the South Sandwich Islands,Americas,Latin America and the Caribbean,AN,Grytviken,,Antarctica,0
+SHN,SH,Saint Helena,Africa,Sub-Saharan Africa,AF,Jamestown,SHP,Africa,0
+SJM,SJ,Svalbard and Jan Mayen Islands,Europe,Northern Europe,EU,Longyearbyen,NOK,Europe,0
+SLB,SB,Solomon Islands,Oceania,Melanesia,OC,Honiara,SBD,Oceania,1
+SLE,SL,Sierra Leone,Africa,Sub-Saharan Africa,AF,Freetown,SLE,Africa,1
+SLV,SV,El Salvador,Americas,Latin America and the Caribbean,NA,San Salvador,"SVC,USD",North America,0
+SMR,SM,San Marino,Europe,Southern Europe,EU,San Marino,EUR,Europe,0
+SOM,SO,Somalia,Africa,Sub-Saharan Africa,AF,Mogadishu,SOS,Africa,1
+SPM,PM,Saint Pierre and Miquelon,Americas,Northern America,NA,Saint-Pierre,EUR,North America,0
+SRB,RS,Serbia,Europe,Southern Europe,EU,Belgrade,RSD,Europe,0
+SSD,SS,South Sudan,Africa,Sub-Saharan Africa,AF,Juba,SSP,Africa,1
+STP,ST,Sao Tome and Principe,Africa,Sub-Saharan Africa,AF,Sao Tome,STN,Africa,1
+SUR,SR,Suriname,Americas,Latin America and the Caribbean,SA,Paramaribo,SRD,South America,0
+SVK,SK,Slovakia,Europe,Eastern Europe,EU,Bratislava,EUR,Europe,0
+SVN,SI,Slovenia,Europe,Southern Europe,EU,Ljubljana,EUR,Europe,0
+SWE,SE,Sweden,Europe,Northern Europe,EU,Stockholm,SEK,Europe,0
+SWZ,SZ,Eswatini,Africa,Sub-Saharan Africa,AF,Mbabane,SZL,Africa,0
+SXM,SX,Sint Maarten (Dutch part),Americas,Latin America and the Caribbean,NA,Philipsburg,XCG,North America,0
+SYC,SC,Seychelles,Africa,Sub-Saharan Africa,AF,Victoria,SCR,Africa,0
+SYR,SY,Syrian Arab Republic,Asia,Western Asia,AS,Damascus,SYP,Asia,0
+TCA,TC,Turks and Caicos Islands,Americas,Latin America and the Caribbean,NA,Cockburn Town,USD,North America,0
+TCD,TD,Chad,Africa,Sub-Saharan Africa,AF,N'Djamena,XAF,Africa,1
+TGO,TG,Togo,Africa,Sub-Saharan Africa,AF,Lome,XOF,Africa,1
+THA,TH,Thailand,Asia,South-eastern Asia,AS,Bangkok,THB,Asia,0
+TJK,TJ,Tajikistan,Asia,Central Asia,AS,Dushanbe,TJS,Asia,0
+TKL,TK,Tokelau,Oceania,Polynesia,OC,,NZD,Oceania,0
+TKM,TM,Turkmenistan,Asia,Central Asia,AS,Ashgabat,TMT,Asia,0
+TLS,TL,Timor-Leste,Asia,South-eastern Asia,OC,Dili,USD,Oceania,1
+TON,TO,Tonga,Oceania,Polynesia,OC,Nuku'alofa,TOP,Oceania,0
+TTO,TT,Trinidad and Tobago,Americas,Latin America and the Caribbean,NA,Port of Spain,TTD,North America,0
+TUN,TN,Tunisia,Africa,Northern Africa,AF,Tunis,TND,Africa,0
+TUR,TR,Türkiye,Asia,Western Asia,AS,Ankara,,Asia,0
+TUV,TV,Tuvalu,Oceania,Polynesia,OC,Funafuti,AUD,Oceania,1
+TWN,TW,Taiwan,Asia,Eastern Asia,AS,Taipei,TWD,Asia,0
+TZA,TZ,United Republic of Tanzania,Africa,Sub-Saharan Africa,AF,Dodoma,TZS,Africa,1
+UGA,UG,Uganda,Africa,Sub-Saharan Africa,AF,Kampala,UGX,Africa,1
+UKR,UA,Ukraine,Europe,Eastern Europe,EU,Kyiv,UAH,Europe,0
+UMI,UM,United States Minor Outlying Islands,Oceania,Micronesia,OC,,USD,Oceania,0
+URY,UY,Uruguay,Americas,Latin America and the Caribbean,SA,Montevideo,"UYU,UYW",South America,0
+USA,US,United States of America,Americas,Northern America,NA,Washington,USD,North America,0
+UZB,UZ,Uzbekistan,Asia,Central Asia,AS,Tashkent,UZS,Asia,0
+VAT,VA,Holy See,Europe,Southern Europe,EU,Vatican City,EUR,Europe,0
+VCT,VC,Saint Vincent and the Grenadines,Americas,Latin America and the Caribbean,NA,Kingstown,XCD,North America,0
+VEN,VE,Venezuela (Bolivarian Republic of),Americas,Latin America and the Caribbean,SA,Caracas,"VES,VED",South America,0
+VGB,VG,British Virgin Islands,Americas,Latin America and the Caribbean,NA,Road Town,USD,North America,0
+VIR,VI,United States Virgin Islands,Americas,Latin America and the Caribbean,NA,Charlotte Amalie,USD,North America,0
+VNM,VN,Viet Nam,Asia,South-eastern Asia,AS,Hanoi,VND,Asia,0
+VUT,VU,Vanuatu,Oceania,Melanesia,OC,Port Vila,VUV,Oceania,0
+WLF,WF,Wallis and Futuna Islands,Oceania,Polynesia,OC,Mata Utu,XPF,Oceania,0
+WSM,WS,Samoa,Oceania,Polynesia,OC,Apia,WST,Oceania,0
+YEM,YE,Yemen,Asia,Western Asia,AS,Sanaa,YER,Asia,1
+ZAF,ZA,South Africa,Africa,Sub-Saharan Africa,AF,Pretoria,ZAR,Africa,0
+ZMB,ZM,Zambia,Africa,Sub-Saharan Africa,AF,Lusaka,ZMW,Africa,1
+ZWE,ZW,Zimbabwe,Africa,Sub-Saharan Africa,AF,Harare,ZWG,Africa,0

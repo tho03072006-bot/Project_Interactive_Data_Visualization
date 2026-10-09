@@ -1,0 +1,9 @@
+table,rows,columns,key,duplicate_keys,null_key_rows,missing_cells
+dim_coin,63,16,['ticker'],0,0,141
+fact_crypto_daily,123358,29,"['ticker', 'date']",0,0,436981
+fact_market_daily,185694,11,"['ticker', 'date']",0,0,186381
+fact_macro_daily,10071,4,['date'],0,0,8426
+fact_macro_monthly,2325,24,['month'],0,0,30526
+analysis_crypto_macro_monthly,160,31,['month'],0,0,104
+dim_country,249,10,['iso3'],0,0,12
+fact_country_yearly,2580,23,"['iso3', 'year']",0,0,3397

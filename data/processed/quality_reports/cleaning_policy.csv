@@ -1,0 +1,13 @@
+area,issue,detection,treatment,rationale
+crypto_price,missing/non-positive PriceUSD,isna or <=0,exclude only from price panel; no interpolation,Interpolation could create artificial returns.
+crypto_market_cap,current and estimated cap differ conceptually,inspect CapMrktCurUSD and CapMrktEstUSD separately,retain both; current only for rank/share/dominance,Avoid mixing current supply with estimated supply.
+crypto_volume,ambiguous volume meaning,raw field name review,rename to reported_spot_volume_usd; no imputation,"It is reported spot volume, not adjusted on-chain transfer value."
+crypto_volume_magnitude,three astronomically impossible USDC reported-volume magnitudes,>1e15 USD/day plus neighboring-date review,flag; set processed value missing; preserve immutable raw,"Values of 1e47-1e53 USD/day are source failures, not plausible market extremes."
+crypto_return_outlier,extreme return,past-only 365-observation median/MAD z; minimum 60; |z|>6,flag and retain,Extreme crypto moves can be real; robust estimator limits masking without look-ahead.
+macro_calendar,missing calendar month,source months versus complete MonthEnd index,insert calendar key and retain missing; no interpolation,Ensures shift(12) uses the same calendar month.
+macro_transformation,trending levels,time-series measurement design,use returns/changes for correlation,Reduces spurious correlation from common trends.
+vix_regime,descriptive grouping,monthly mean VIX,Risk-on <15; Neutral 15-<25; Risk-off >=25,"Transparent ex-ante convention, not fitted to outcomes."
+country_key,World Bank aggregates and NA code,ISO3 join to country_codes,exclude unmapped aggregates; preserve NA as North America,Prevents double counting and false missing geography.
+country_inflation_outlier,extreme annual inflation,within-year |z|>4,flag and retain; symlog visualization,Hyperinflation is substantively meaningful.
+joins,row multiplication/grain mismatch,assert unique keys and validate cardinality,only compatible 1:1 or many:1 joins; country annual kept separate,Prevents invalid replication and totals.
+study_window,window dependence,pre-specified 2018 main window,also export 2015-start sensitivity,Focus on contemporary regime while exposing sensitivity.
