@@ -6,3 +6,6 @@ __pycache__/
 # Tài liệu cá nhân và thư mục tạm, không đưa lên repo
 bao_cao/
 tmp/
+
+# File khóa tạm Tableau tạo ra khi đang mở workbook
+~*.twbr
