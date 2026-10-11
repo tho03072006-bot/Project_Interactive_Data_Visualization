@@ -1,0 +1,5 @@
+source,first_month,last_month,calendar_months,observed_months,missing_months,missing_month_list,treatment
+sp500_monthly.csv,1871-01-31,2026-08-31,1868,1868,0,,complete calendar index; missing retained; no interpolation
+gold_monthly.csv,1833-01-31,2026-08-31,2324,2324,0,,complete calendar index; missing retained; no interpolation
+cpi_us_monthly.csv,1913-01-31,2026-07-31,1363,1362,1,2025-10,complete calendar index; missing retained; no interpolation
+us10y_monthly.csv,1953-04-30,2026-07-31,880,880,0,,complete calendar index; missing retained; no interpolation

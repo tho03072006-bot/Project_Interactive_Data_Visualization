@@ -1,0 +1,9 @@
+table,file,grain,key,purpose,rows,columns
+dim_coin,dim_coin.csv,one ticker,ticker,"coin taxonomy, true price coverage and same-date current-cap rank",63,16
+fact_crypto_daily,fact_crypto_daily.csv.gz,one ticker-date,"ticker,date","valid-price crypto panel, on-chain measures and calculated fields",123358,29
+fact_market_daily,fact_market_daily.csv.gz,one ticker-date,"ticker,date","separate current/estimated cap, reported spot volume and current-cap market share",185694,11
+fact_macro_daily,fact_macro_daily.csv,one date,date,variables observed at true daily frequency,10071,4
+fact_macro_monthly,fact_macro_monthly.csv,one calendar month,month,monthly source levels and correctly aggregated daily variables,2325,24
+analysis_crypto_macro_monthly,analysis_crypto_macro_monthly.csv,one complete calendar month,month,analysis-ready BTC/ETH and macro transformations,160,31
+dim_country,dim_country.csv,one ISO3,iso3,country/economy/territory attributes,249,10
+fact_country_yearly,fact_country_yearly.csv,one ISO3-year,"iso3,year","annual inflation, GDP and population context",2580,23

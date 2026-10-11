@@ -1,0 +1,149 @@
+table,column,definition,unit,source_or_formula,dtype,missing,rows
+dim_coin,ticker,Uppercase Coin Metrics asset symbol.,symbol,archive member name,str,0,63
+dim_coin,raw_first_date,First raw row date for ticker.,date,raw coverage,datetime64[us],0,63
+dim_coin,raw_last_date,Last raw row date for ticker.,date,raw coverage,datetime64[us],0,63
+dim_coin,raw_rows,Raw rows for ticker.,rows,raw coverage,int64,0,63
+dim_coin,price_first_date,First date with valid positive PriceUSD.,date,derived,datetime64[us],24,63
+dim_coin,price_last_date,Last date with valid positive PriceUSD.,date,derived,datetime64[us],24,63
+dim_coin,valid_price_rows,Rows with valid positive PriceUSD.,rows,derived,int64,0,63
+dim_coin,valid_market_rows,Rows with at least one cap or reported-volume field.,rows,derived,int64,0,63
+dim_coin,valid_current_cap_rows,Rows with valid current cap.,rows,derived,int64,0,63
+dim_coin,valid_estimated_cap_rows,Rows with valid estimated cap.,rows,derived,int64,0,63
+dim_coin,has_price_history,Whether ticker has any valid PriceUSD.,boolean,derived,bool,0,63
+dim_coin,category,Hand-curated descriptive asset category; not inferential.,category,manual taxonomy,str,0,63
+dim_coin,category_source,Provenance label for category.,text,manual taxonomy,str,0,63
+dim_coin,market_cap_current_as_of_usd,Current cap at the common as-of date.,USD,CapMrktCurUSD,float64,31,63
+dim_coin,market_cap_current_rank_as_of,Descending current-cap rank at the common as-of date.,rank,calculated,float64,31,63
+dim_coin,market_cap_as_of_date,Common date used for current-cap rank.,date,derived,datetime64[us],31,63
+fact_crypto_daily,date,Daily observation key.,date,raw/derived,datetime64[us],0,123358
+fact_crypto_daily,ticker,Uppercase Coin Metrics asset symbol.,symbol,archive member name,str,0,123358
+fact_crypto_daily,price_usd,Positive Coin Metrics daily PriceUSD.,USD/asset,PriceUSD,float64,0,123358
+fact_crypto_daily,market_cap_current_usd,Market cap using current supply; primary cap measure.,USD,CapMrktCurUSD,float64,11525,123358
+fact_crypto_daily,market_cap_estimated_usd,Estimated market cap retained separately; never silently substituted for current cap.,USD,CapMrktEstUSD,float64,30202,123358
+fact_crypto_daily,reported_spot_volume_usd,Reported one-day spot trading volume after nulling three documented >1e15 USD/day source-magnitude failures; not adjusted on-chain transfer value.,USD/day,volume_reported_spot_usd_1d,float64,3,123358
+fact_crypto_daily,active_addresses,Active address count.,addresses/day,AdrActCnt,float64,10115,123358
+fact_crypto_daily,tx_count,Transaction count.,transactions/day,TxCnt,float64,5728,123358
+fact_crypto_daily,transfer_count,Transfer count.,transfers/day,TxTfrCnt,float64,5728,123358
+fact_crypto_daily,hashrate,Network hash rate where applicable.,source units,HashRate,float64,86492,123358
+fact_crypto_daily,supply_current_native,Current native-unit supply.,native asset units,SplyCur,float64,11525,123358
+fact_crypto_daily,mvrv_current,Current MVRV ratio.,ratio,CapMVRVCur,float64,15924,123358
+fact_crypto_daily,exchange_inflow_usd,Exchange inflow where source provides it.,USD/day,FlowInExUSD,float64,113907,123358
+fact_crypto_daily,exchange_outflow_usd,Exchange outflow where source provides it.,USD/day,FlowOutExUSD,float64,113907,123358
+fact_crypto_daily,reported_spot_volume_invalid_flag,True for a raw reported-volume magnitude above 1e15 USD/day that was retained in raw but set missing in processed.,boolean,calculated validity rule,bool,0,123358
+fact_crypto_daily,log_return,Daily log difference of PriceUSD within ticker.,log points,calculated,float64,39,123358
+fact_crypto_daily,daily_return_pct,Daily percentage change of PriceUSD within ticker.,%,calculated,float64,39,123358
+fact_crypto_daily,ma7_usd,Seven-observation moving average of PriceUSD.,USD/asset,calculated,float64,234,123358
+fact_crypto_daily,ma30_usd,Thirty-observation moving average of PriceUSD.,USD/asset,calculated,float64,1131,123358
+fact_crypto_daily,ma90_usd,Ninety-observation moving average of PriceUSD.,USD/asset,calculated,float64,3471,123358
+fact_crypto_daily,volatility_30d_annualized_pct,Rolling 30-observation std(log return)*sqrt(365)*100.,% annualized,calculated,float64,1170,123358
+fact_crypto_daily,drawdown_pct,"Price/running maximum minus one, times 100.",%,calculated,float64,0,123358
+fact_crypto_daily,turnover_ratio,Reported spot volume divided by current market cap.,ratio/day,calculated,float64,11528,123358
+fact_crypto_daily,return_robust_z_365,Past-only rolling median/MAD robust z-score of daily return.,robust sd,calculated,float64,14274,123358
+fact_crypto_daily,is_return_outlier,True when |return_robust_z_365| > 6; row retained.,boolean,calculated,bool,0,123358
+fact_crypto_daily,is_up_day,True when non-missing daily return is positive.,boolean,calculated,object,39,123358
+fact_crypto_daily,btc_dominance_current_available_universe_pct,BTC current cap divided by current-cap total of available universe; not global dominance.,%,calculated,float64,0,123358
+fact_crypto_daily,total_current_market_cap_available_usd,Sum of available current caps for the observed universe and date.,USD,calculated,float64,0,123358
+fact_crypto_daily,assets_with_current_market_cap,Assets contributing current cap on the date.,count,calculated,int64,0,123358
+fact_market_daily,date,Daily observation key.,date,raw/derived,datetime64[us],0,185694
+fact_market_daily,ticker,Uppercase Coin Metrics asset symbol.,symbol,archive member name,str,0,185694
+fact_market_daily,market_cap_current_usd,Market cap using current supply; primary cap measure.,USD,CapMrktCurUSD,float64,73861,185694
+fact_market_daily,market_cap_estimated_usd,Estimated market cap retained separately; never silently substituted for current cap.,USD,CapMrktEstUSD,float64,38656,185694
+fact_market_daily,reported_spot_volume_usd,Reported one-day spot trading volume after nulling three documented >1e15 USD/day source-magnitude failures; not adjusted on-chain transfer value.,USD/day,volume_reported_spot_usd_1d,float64,3,185694
+fact_market_daily,reported_spot_volume_invalid_flag,True for a raw reported-volume magnitude above 1e15 USD/day that was retained in raw but set missing in processed.,boolean,calculated validity rule,bool,0,185694
+fact_market_daily,total_current_market_cap_available_usd,Sum of available current caps for the observed universe and date.,USD,calculated,float64,0,185694
+fact_market_daily,assets_with_current_market_cap,Assets contributing current cap on the date.,count,calculated,int64,0,185694
+fact_market_daily,btc_current_market_cap_usd,BTC current market cap used in the dominance numerator.,USD,CapMrktCurUSD,float64,0,185694
+fact_market_daily,btc_dominance_current_available_universe_pct,BTC current cap divided by current-cap total of available universe; not global dominance.,%,calculated,float64,0,185694
+fact_market_daily,current_market_share_available_pct,Asset current cap divided by same-day current-cap total of available universe.,%,calculated,float64,73861,185694
+fact_macro_daily,date,Daily observation key.,date,raw/derived,datetime64[us],0,10071
+fact_macro_daily,vix_close,Daily VIX close.,index points,CLOSE,float64,795,10071
+fact_macro_daily,brent_usd_per_barrel,"Daily or last-in-month Brent price, depending on table grain.",USD/barrel,Price,float64,984,10071
+fact_macro_daily,dxy_reconstructed,DXY formula reconstructed from six foreign-currency-per-USD rates; not official ICE feed.,index points,calculated,float64,6647,10071
+fact_macro_monthly,month,Calendar month-end join key; not a claim that each source value is month-end.,month,derived,datetime64[us],0,2325
+fact_macro_monthly,sp500_level,Source monthly S&P 500 price-level observation: Shiller history is a monthly average; the recent extension uses FRED SP500. Not a total-return index.,index points,SP500,float64,457,2325
+fact_macro_monthly,sp500_pe10,Cyclically adjusted PE10 where source supplies a positive value.,ratio,PE10,float64,612,2325
+fact_macro_monthly,sp500_return_pct,Change in successive source monthly S&P 500 price levels; not total return.,%,calculated,float64,458,2325
+fact_macro_monthly,gold_usd_per_oz,Monthly World Bank gold price in the 2013+ analysis window; not relabeled month-end. Upstream pre-1960 values repeat annual averages by month.,USD/troy oz,Price,float64,1,2325
+fact_macro_monthly,gold_return_pct,Change in successive source monthly gold price levels.,%,calculated,float64,2,2325
+fact_macro_monthly,cpi_index,US CPI index level.,index,Index,float64,963,2325
+fact_macro_monthly,cpi_mom_pct,CPI change from previous calendar month; missing if either month missing.,%,calculated,float64,965,2325
+fact_macro_monthly,cpi_yoy_pct,CPI change from the same calendar month 12 months earlier.,%,calculated,float64,975,2325
+fact_macro_monthly,cpi_yoy_change_pp,First difference of CPI YoY.,percentage points,calculated,float64,977,2325
+fact_macro_monthly,us10y_yield_pct,Monthly US 10-year Treasury yield.,%/year,Rate,float64,1445,2325
+fact_macro_monthly,us10y_change_pp,First difference of US10Y yield.,percentage points,calculated,float64,1446,2325
+fact_macro_monthly,vix_mean,Mean daily VIX close in month.,index points,calculated,float64,1884,2325
+fact_macro_monthly,vix_last,Last available daily VIX close in month.,index points,calculated,float64,1884,2325
+fact_macro_monthly,vix_max,Maximum daily VIX close in month.,index points,calculated,float64,1884,2325
+fact_macro_monthly,vix_observations,Non-missing daily VIX observations in month.,trading days,calculated,float64,1884,2325
+fact_macro_monthly,brent_usd_per_barrel,"Daily or last-in-month Brent price, depending on table grain.",USD/barrel,Price,float64,1852,2325
+fact_macro_monthly,dxy_reconstructed,DXY formula reconstructed from six foreign-currency-per-USD rates; not official ICE feed.,index points,calculated,float64,2160,2325
+fact_macro_monthly,vix_change_pct,Change in successive monthly mean VIX.,%,calculated,float64,1885,2325
+fact_macro_monthly,risk_regime,"Risk-on <15, Neutral 15 to <25, Risk-off >=25 using same-month mean VIX.",category,calculated convention,str,1884,2325
+fact_macro_monthly,brent_return_pct,Change in successive last-in-month Brent prices.,%,calculated,float64,1853,2325
+fact_macro_monthly,dxy_return_pct,Change in successive last-in-month reconstructed DXY levels.,%,calculated,float64,2161,2325
+fact_macro_monthly,real_rate_pct,Ex-post proxy: nominal US10Y minus CPI YoY.,%,calculated,float64,1446,2325
+fact_macro_monthly,real_rate_change_pp,First difference of ex-post real-rate proxy.,percentage points,calculated,float64,1448,2325
+analysis_crypto_macro_monthly,month,Calendar month-end join key; not a claim that each source value is month-end.,month,derived,datetime64[us],0,160
+analysis_crypto_macro_monthly,btc_price_usd,Last valid BTC PriceUSD in the calendar month.,USD/BTC,calculated,float64,0,160
+analysis_crypto_macro_monthly,btc_return_pct,Change in successive BTC last-valid monthly prices.,%,calculated,float64,0,160
+analysis_crypto_macro_monthly,eth_price_usd,Last valid ETH PriceUSD in the calendar month.,USD/ETH,calculated,float64,31,160
+analysis_crypto_macro_monthly,eth_return_pct,Change in successive ETH last-valid monthly prices.,%,calculated,float64,32,160
+analysis_crypto_macro_monthly,btc_dominance_current_available_universe_pct,BTC current cap divided by current-cap total of available universe; not global dominance.,%,calculated,float64,0,160
+analysis_crypto_macro_monthly,total_current_market_cap_available_usd,Sum of available current caps for the observed universe and date.,USD,calculated,float64,0,160
+analysis_crypto_macro_monthly,assets_with_current_market_cap,Assets contributing current cap on the date.,count,calculated,int64,0,160
+analysis_crypto_macro_monthly,sp500_level,Source monthly S&P 500 price-level observation: Shiller history is a monthly average; the recent extension uses FRED SP500. Not a total-return index.,index points,SP500,float64,0,160
+analysis_crypto_macro_monthly,sp500_pe10,Cyclically adjusted PE10 where source supplies a positive value.,ratio,PE10,float64,31,160
+analysis_crypto_macro_monthly,sp500_return_pct,Change in successive source monthly S&P 500 price levels; not total return.,%,calculated,float64,0,160
+analysis_crypto_macro_monthly,gold_usd_per_oz,Monthly World Bank gold price in the 2013+ analysis window; not relabeled month-end. Upstream pre-1960 values repeat annual averages by month.,USD/troy oz,Price,float64,0,160
+analysis_crypto_macro_monthly,gold_return_pct,Change in successive source monthly gold price levels.,%,calculated,float64,0,160
+analysis_crypto_macro_monthly,cpi_index,US CPI index level.,index,Index,float64,1,160
+analysis_crypto_macro_monthly,cpi_mom_pct,CPI change from previous calendar month; missing if either month missing.,%,calculated,float64,2,160
+analysis_crypto_macro_monthly,cpi_yoy_pct,CPI change from the same calendar month 12 months earlier.,%,calculated,float64,1,160
+analysis_crypto_macro_monthly,cpi_yoy_change_pp,First difference of CPI YoY.,percentage points,calculated,float64,2,160
+analysis_crypto_macro_monthly,us10y_yield_pct,Monthly US 10-year Treasury yield.,%/year,Rate,float64,0,160
+analysis_crypto_macro_monthly,us10y_change_pp,First difference of US10Y yield.,percentage points,calculated,float64,0,160
+analysis_crypto_macro_monthly,vix_mean,Mean daily VIX close in month.,index points,calculated,float64,0,160
+analysis_crypto_macro_monthly,vix_last,Last available daily VIX close in month.,index points,calculated,float64,0,160
+analysis_crypto_macro_monthly,vix_max,Maximum daily VIX close in month.,index points,calculated,float64,0,160
+analysis_crypto_macro_monthly,vix_observations,Non-missing daily VIX observations in month.,trading days,calculated,float64,0,160
+analysis_crypto_macro_monthly,brent_usd_per_barrel,"Daily or last-in-month Brent price, depending on table grain.",USD/barrel,Price,float64,0,160
+analysis_crypto_macro_monthly,dxy_reconstructed,DXY formula reconstructed from six foreign-currency-per-USD rates; not official ICE feed.,index points,calculated,float64,0,160
+analysis_crypto_macro_monthly,vix_change_pct,Change in successive monthly mean VIX.,%,calculated,float64,0,160
+analysis_crypto_macro_monthly,risk_regime,"Risk-on <15, Neutral 15 to <25, Risk-off >=25 using same-month mean VIX.",category,calculated convention,str,0,160
+analysis_crypto_macro_monthly,brent_return_pct,Change in successive last-in-month Brent prices.,%,calculated,float64,0,160
+analysis_crypto_macro_monthly,dxy_return_pct,Change in successive last-in-month reconstructed DXY levels.,%,calculated,float64,1,160
+analysis_crypto_macro_monthly,real_rate_pct,Ex-post proxy: nominal US10Y minus CPI YoY.,%,calculated,float64,1,160
+analysis_crypto_macro_monthly,real_rate_change_pp,First difference of ex-post real-rate proxy.,percentage points,calculated,float64,2,160
+dim_country,iso3,ISO3 identifier after aggregate exclusion.,code,country_codes,str,0,249
+dim_country,iso2,ISO2 identifier.,code,country_codes,str,0,249
+dim_country,country_name,Country/economy/territory display name.,text,country_codes,str,0,249
+dim_country,region,UN region name.,text,country_codes,str,1,249
+dim_country,sub_region,UN sub-region name.,text,country_codes,str,1,249
+dim_country,continent_code,Continent code; NA means North America.,code,country_codes,str,0,249
+dim_country,capital,Capital name where available.,text,country_codes,str,6,249
+dim_country,currency_code,Alphabetic currency code.,code,country_codes,str,4,249
+dim_country,continent_name,Mapped continent name.,text,derived,str,0,249
+dim_country,is_ldc,Least Developed Country marker from dimension.,0/1,country_codes,int64,0,249
+fact_country_yearly,iso3,ISO3 identifier after aggregate exclusion.,code,country_codes,str,0,2580
+fact_country_yearly,year,Calendar year key.,year,raw,int64,0,2580
+fact_country_yearly,inflation_annual_pct,Annual CPI inflation; cross-economy comparisons are descriptive.,%/year,World Bank FP.CPI.TOTL.ZG,float64,469,2580
+fact_country_yearly,gdp_current_usd,GDP in current USD.,USD/year,World Bank GDP,float64,321,2580
+fact_country_yearly,population,Annual population.,persons,World Bank population,int64,0,2580
+fact_country_yearly,gdp_per_capita_usd,Current-USD GDP divided by population for same ISO3-year.,USD/person,calculated,float64,321,2580
+fact_country_yearly,log_gdp_per_capita,Natural log of positive GDP per capita.,log USD/person,calculated,float64,321,2580
+fact_country_yearly,gdp_per_capita_growth_pct,Within-economy change in current-USD GDP per capita.,%,calculated,float64,534,2580
+fact_country_yearly,inflation_year_z,Cross-sectional inflation z-score within year.,standard deviations,calculated,float64,469,2580
+fact_country_yearly,inflation_extreme_flag,True when |inflation_year_z| > 4; row retained.,boolean,calculated,object,469,2580
+fact_country_yearly,high_inflation_ge_10pct,Descriptive flag for annual inflation >=10%.,boolean,calculated convention,object,469,2580
+fact_country_yearly,has_inflation,Inflation availability flag.,0/1,derived,int64,0,2580
+fact_country_yearly,has_gdp,GDP availability flag.,0/1,derived,int64,0,2580
+fact_country_yearly,has_population,Population availability flag.,0/1,derived,int64,0,2580
+fact_country_yearly,iso2,ISO2 identifier.,code,country_codes,str,0,2580
+fact_country_yearly,country_name,Country/economy/territory display name.,text,country_codes,str,0,2580
+fact_country_yearly,region,UN region name.,text,country_codes,str,0,2580
+fact_country_yearly,sub_region,UN sub-region name.,text,country_codes,str,0,2580
+fact_country_yearly,continent_code,Continent code; NA means North America.,code,country_codes,str,0,2580
+fact_country_yearly,capital,Capital name where available.,text,country_codes,str,0,2580
+fact_country_yearly,currency_code,Alphabetic currency code.,code,country_codes,str,24,2580
+fact_country_yearly,continent_name,Mapped continent name.,text,derived,str,0,2580
+fact_country_yearly,is_ldc,Least Developed Country marker from dimension.,0/1,country_codes,int64,0,2580

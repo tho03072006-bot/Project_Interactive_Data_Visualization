@@ -1,0 +1,4 @@
+join_name,left_grain,right_grain,cardinality,left_rows_before,rows_after,left_unmatched,purpose
+crypto_price_to_daily_market_context,ticker_date,date,many_to_one,123358,123358,0,attach current-cap available-universe context without row multiplication
+calendar_month_to_btc_monthly,month,month,one_to_one,160,160,0,align BTC last-valid-price monthly returns to an explicit complete calendar
+analysis_month_to_macro_month,month,month,one_to_one,160,160,0,combine transformed crypto and macro measures at the same monthly grain

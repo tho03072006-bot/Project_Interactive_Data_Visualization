@@ -1,0 +1,12 @@
+step,left_table,right_table,key,join_type,cardinality,left_rows_before,right_rows_before,rows_after,left_unmatched,right_unmatched,purpose,scientific_decision
+1,coin metadata,same-date current-cap rank,ticker,left,one_to_one,63,32,63,31,0,attach a comparable rank from one common date,never use each coin's own latest date or estimated cap
+2,daily current-cap summary,BTC current cap,date,left,one_to_one,5789,5789,5789,0,0,form BTC dominance from a same-date numerator and denominator,never carry BTC cap across dates
+3,market_clean,daily current-cap summary,date,left,many_to_one,185694,5789,185694,0,0,calculate same-universe market share and BTC dominance,denominator is explicitly the available current-cap universe
+4,crypto_base,daily current-cap summary,date,left,many_to_one,123358,5789,123358,0,0,attach market context to every valid-price asset-day,date-level context cannot multiply ticker-date rows
+5,complete month calendar,BTC last-valid monthly price,month,left,one_to_one,160,160,160,0,0,anchor the analysis to an explicit calendar,exclude the current incomplete month
+6,analysis month calendar,ETH last-valid monthly price,month,left,one_to_one,160,129,160,31,0,add the ETH comparison at the same monthly grain,last valid observation is selected inside each calendar month
+7,analysis crypto monthly,market monthly snapshot,month,left,one_to_one,160,160,160,0,0,attach last-valid same-month market context,monthly market context remains one row per month
+8,analysis crypto monthly,fact_macro_monthly,month,left,one_to_one,160,2325,160,0,2165,align transformed crypto and macro measures at monthly grain,country-year data is deliberately not joined here
+9,wb_cpi,wb_gdp,iso3 + year,outer,one_to_one,11182,13979,14412,433,3230,retain country-years available in either indicator,missing values remain missing; no fabricated inner-join balance
+10,inflation_gdp outer panel,wb_population,iso3 + year,outer,one_to_one,14412,17195,17195,0,2783,enable same-country same-year GDP per capita,GDP/population are divided only after exact key alignment
+11,country indicator panel 2013-2024,dim_country,iso3,filter then left,many_to_one,3180,249,2580,600,34,attach geography and remove World Bank aggregates,country panel stays annual and separate from monthly market analysis
